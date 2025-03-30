@@ -1,0 +1,72 @@
+.query-history {
+    padding: 1rem;
+    flex: 1;
+    overflow: auto;
+  }
+  
+  .query-history h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .empty-history {
+    color: #888;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .history-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .history-list li {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .history-list li:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .query-text {
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .query-time {
+    font-size: 0.75rem;
+    color: #777;
+  }
+  
+  /* Dark mode styles */
+  .dark .query-history h3 {
+    color: #ecf0f1;
+  }
+  
+  .dark .empty-history {
+    color: #bdc3c7;
+  }
+  
+  .dark .history-list li {
+    background-color: #3d566e;
+    border-color: #7f8c8d;
+    color: #ecf0f1;
+  }
+  
+  .dark .history-list li:hover {
+    background-color: #4a6b8a;
+  }
+  
+  .dark .query-time {
+    color: #bdc3c7;
+  }

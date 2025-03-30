@@ -1,0 +1,103 @@
+/* Add these new styles to your existing App.css */
+
+.file-upload {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.upload-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.file-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.upload-button {
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.upload-button:hover {
+  background-color: #2980b9;
+}
+
+.file-info {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9rem;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.pagination-controls button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-controls span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Dark mode styles */
+.dark .upload-button {
+  background-color: #2c3e50;
+}
+
+.dark .upload-button:hover {
+  background-color: #34495e;
+}
+
+.dark .file-input {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border-color: #7f8c8d;
+}
+
+.dark .pagination-controls {
+  background-color: #34495e;
+}
+
+.dark .pagination-controls button {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border-color: #7f8c8d;
+}
+
+.dark .pagination-controls span {
+  color: #bdc3c7;
+}

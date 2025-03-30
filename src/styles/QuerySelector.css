@@ -1,0 +1,41 @@
+.query-selector {
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .query-selector h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .query-dropdown {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    background-color: white;
+  }
+  
+  .query-dropdown option {
+    padding: 0.5rem;
+  }
+  
+  /* Dark mode styles */
+  .dark .query-selector {
+    background-color: #34495e;
+  }
+  
+  .dark .query-selector h3 {
+    color: #ecf0f1;
+  }
+  
+  .dark .query-dropdown {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-color: #7f8c8d;
+  }
