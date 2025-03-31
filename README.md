@@ -40,7 +40,7 @@ A web-based application for running SQL queries and displaying results. This is 
 
 ## Deployment
 
-The application is deployed on Netlify: [Live Demo](https://your-netlify-url.netlify.app)
+The application is deployed on Versal : https://sql-runner-bay.vercel.app/
 
 ## Future Enhancements
 
